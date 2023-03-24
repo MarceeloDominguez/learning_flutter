@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:todo_app/screen/home_screen.dart';
 
 class Todo {
   String title;
@@ -113,7 +114,9 @@ class _TodoAppState extends State<TodoApp> {
 void main() {
   runApp(const MaterialApp(
     debugShowCheckedModeBanner: false,
-    title: 'Todo App',
-    home: TodoApp(),
+    // title: 'Todo App',
+    // home: TodoApp(),
+    title: 'Call Api',
+    home: HomeScreen(),
   ));
 }
